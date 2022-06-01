@@ -1,10 +1,6 @@
 # Default values for kafka-app.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-strimzi-kafka-operator:
-  annotations: 
-    argocd.argoproj.io/sync-wave: "-2"
-
 
 replicaCount: 1
 
